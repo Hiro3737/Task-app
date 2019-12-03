@@ -76,6 +76,14 @@ li .header-list {
     font-weight: bold;
 }
 
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  &:hover {
+    color: silver !important;
+  }
+}
+
 /* デバッグウインドウ */
 
 .debug_dump {
